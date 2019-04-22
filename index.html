@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://abs.twimg.com/favicons/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <title>Twitter Clone - CSS Flexbox</title>
+  </head>
+  <body>
+    <header id="main-header">
+      <div class="content">
+        <nav>
+          <ul>
+            <li><img src="images/home.svg" alt="Home" />Home</li>
+            <li>
+              <img
+                src="images/notification.svg"
+                alt="Notifications"
+              />Notifications
+            </li>
+            <li><img src="images/message.svg" alt="Message" />Messages</li>
+          </ul>
+        </nav>
+        <img src="images/logo.svg" alt="Twitter Logo" />
+        <div class="side">
+          <input type="text" placeholder="Search on Twitter" />
+          <img src="images/avatar.png" alt="Avatar" />
+          <button>Tweet</button>
+        </div>
+      </div>
+    </header>
+
+    <div class="banner">
+      <h1>Twitter Clone made with <em>CSS Flexbox</em></h1>
+    </div>
+
+    <div class="bar">
+      <div class="content">
+        <ul>
+          <li class="active">
+            <span>Tweets</span>
+            <strong>13.239</strong>
+          </li>
+          <li>
+            <span>Followings</span>
+            <strong>134</strong>
+          </li>
+          <li>
+            <span>Followers</span>
+            <strong>420</strong>
+          </li>
+          <li>
+            <span>Favorites</span>
+            <strong>8.039</strong>
+          </li>
+        </ul>
+
+        <div class="actions">
+          <button>Follow</button>
+          <img src="images/more.svg" alt="More" />
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper-content content">
+      <aside class="profile">
+        <img
+          class="avatar"
+          src="images/avatar.png"
+          alt="Nicholas Ferrer Avatar"
+        />
+        <h1>Nicholas</h1>
+        <span>@nicholaasferrer</span>
+        <p>Live together, die alone.</p>
+
+        <ul>
+          <li><img src="images/place.svg" alt="Place" />Rio de Janeiro</li>
+          <li><img src="images/url.svg" alt="URL" />nicholasferrer.com.br</li>
+          <li>
+            <img src="images/joined.svg" alt="Joined" />Joined November 2010
+          </li>
+          <li><img src="images/born.svg" alt="Born" />Born June 8, 1998</li>
+        </ul>
+
+        <div class="widget followers">
+          <strong
+            ><img src="images/followers.svg" alt="Followers" />73 followers that
+            you know</strong
+          >
+
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+
+        <div class="widget images">
+          <strong
+            ><img src="images/images.svg" alt="Images" />266 photos em
+            videos</strong
+          >
+
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
+      </aside>
+
+      <section class="timeline">
+        <nav>
+          <a class="active" href="#">Tweets</a>
+          <a href="#">Tweets and replies</a>
+          <a href="#">Medias</a>
+        </nav>
+
+        <ul class="tweets">
+          <li>
+            <img src="images/avatar.png" alt="avatar" />
+            <div class="info">
+              <strong>Nicholas <span>@nicholaasferrer</span></strong>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <div class="actions">
+                <a href="#"
+                  ><img src="images/comments.svg" alt="Comments" /> 3</a
+                >
+                <a href="#"><img src="images/retweet.svg" alt="retweet" /> 6</a>
+                <a href="#"><img src="images/like.svg" alt="Like" /> 22</a>
+              </div>
+            </div>
+          </li>
+          <li>
+              <img src="images/avatar.png" alt="avatar" />
+              <div class="info">
+                <strong>Nicholas <span>@nicholaasferrer</span></strong>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div class="actions">
+                  <a href="#"
+                    ><img src="images/comments.svg" alt="Comments" /> 3</a
+                  >
+                  <a href="#"><img src="images/retweet.svg" alt="retweet" /> 6</a>
+                  <a href="#"><img src="images/like.svg" alt="Like" /> 22</a>
+                </div>
+              </div>
+            </li>
+            <li>
+                <img src="images/avatar.png" alt="avatar" />
+                <div class="info">
+                  <strong>Nicholas <span>@nicholaasferrer</span></strong>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                  <div class="actions">
+                    <a href="#"
+                      ><img src="images/comments.svg" alt="Comments" /> 3</a
+                    >
+                    <a href="#"><img src="images/retweet.svg" alt="retweet" /> 6</a>
+                    <a href="#"><img src="images/like.svg" alt="Like" /> 22</a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                  <img src="images/avatar.png" alt="avatar" />
+                  <div class="info">
+                    <strong>Nicholas <span>@nicholaasferrer</span></strong>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="actions">
+                      <a href="#"
+                        ><img src="images/comments.svg" alt="Comments" /> 3</a
+                      >
+                      <a href="#"><img src="images/retweet.svg" alt="retweet" /> 6</a>
+                      <a href="#"><img src="images/like.svg" alt="Like" /> 22</a>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                    <img src="images/avatar.png" alt="avatar" />
+                    <div class="info">
+                      <strong>Nicholas <span>@nicholaasferrer</span></strong>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                      <div class="actions">
+                        <a href="#"
+                          ><img src="images/comments.svg" alt="Comments" /> 3</a
+                        >
+                        <a href="#"><img src="images/retweet.svg" alt="retweet" /> 6</a>
+                        <a href="#"><img src="images/like.svg" alt="Like" /> 22</a>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                      <img src="images/avatar.png" alt="avatar" />
+                      <div class="info">
+                        <strong>Nicholas <span>@nicholaasferrer</span></strong>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="actions">
+                          <a href="#"
+                            ><img src="images/comments.svg" alt="Comments" /> 3</a
+                          >
+                          <a href="#"><img src="images/retweet.svg" alt="retweet" /> 6</a>
+                          <a href="#"><img src="images/like.svg" alt="Like" /> 22</a>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                        <img src="images/avatar.png" alt="avatar" />
+                        <div class="info">
+                          <strong>Nicholas <span>@nicholaasferrer</span></strong>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                          <div class="actions">
+                            <a href="#"
+                              ><img src="images/comments.svg" alt="Comments" /> 3</a
+                            >
+                            <a href="#"><img src="images/retweet.svg" alt="retweet" /> 6</a>
+                            <a href="#"><img src="images/like.svg" alt="Like" /> 22</a>
+                          </div>
+                        </div>
+                      </li>
+                      <li>
+                          <img src="images/avatar.png" alt="avatar" />
+                          <div class="info">
+                            <strong>Nicholas <span>@nicholaasferrer</span></strong>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <div class="actions">
+                              <a href="#"
+                                ><img src="images/comments.svg" alt="Comments" /> 3</a
+                              >
+                              <a href="#"><img src="images/retweet.svg" alt="retweet" /> 6</a>
+                              <a href="#"><img src="images/like.svg" alt="Like" /> 22</a>
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                            <img src="images/avatar.png" alt="avatar" />
+                            <div class="info">
+                              <strong>Nicholas <span>@nicholaasferrer</span></strong>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                              <div class="actions">
+                                <a href="#"
+                                  ><img src="images/comments.svg" alt="Comments" /> 3</a
+                                >
+                                <a href="#"><img src="images/retweet.svg" alt="retweet" /> 6</a>
+                                <a href="#"><img src="images/like.svg" alt="Like" /> 22</a>
+                              </div>
+                            </div>
+                          </li>
+                          <li>
+                              <img src="images/avatar.png" alt="avatar" />
+                              <div class="info">
+                                <strong>Nicholas <span>@nicholaasferrer</span></strong>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <div class="actions">
+                                  <a href="#"
+                                    ><img src="images/comments.svg" alt="Comments" /> 3</a
+                                  >
+                                  <a href="#"><img src="images/retweet.svg" alt="retweet" /> 6</a>
+                                  <a href="#"><img src="images/like.svg" alt="Like" /> 22</a>
+                                </div>
+                              </div>
+                            </li>
+        </ul>
+      </section>
+
+      <aside class="widgets">
+        <div class="widget follow">
+          <div class="title">
+            <strong>Who to follow</strong>
+            <a href="#">Refresh</a>
+            <a href="#">View all</a>
+          </div>
+
+          <ul>
+            <li>
+              <div class="profile">
+                <img src="images/avatar.png" alt="Avatar" />
+                <div class="info">
+                  <strong>Spade <span>@spade.be</span></strong>
+                  <button>Follow</button>
+                </div>
+              </div>
+              <a href="#">x</a>
+            </li>
+
+            <li>
+              <div class="profile">
+                <img src="images/avatar.png" alt="Avatar" />
+                <div class="info">
+                  <strong>Spade <span>@spade.be</span></strong>
+                  <button>Follow</button>
+                </div>
+              </div>
+              <a href="#">x</a>
+            </li>
+
+            <li>
+              <div class="profile">
+                <img src="images/avatar.png" alt="Avatar" />
+                <div class="info">
+                  <strong>Spade <span>@spade.be</span></strong>
+                  <button>Follow</button>
+                </div>
+              </div>
+              <a href="#">x</a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+  </body>
+</html>
